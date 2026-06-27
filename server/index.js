@@ -13,7 +13,10 @@ const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: ["https://exam-forge-zeta.vercel.app/", "http://localhost:5173"],
+    origin: [
+      "https://exam-forge-zeta.vercel.app/login",
+      "http://localhost:5173",
+    ],
     credentials: true,
   }),
 );
