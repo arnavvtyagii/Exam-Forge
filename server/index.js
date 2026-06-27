@@ -14,7 +14,7 @@ app.use(helmet());
 app.use(
   cors({
     origin: [
-      "https://exam-forge-zeta.vercel.app/login",
+      "https://exam-forge-7ncyqj3aa-arnav-tyagi.vercel.app/login",
       "http://localhost:5173",
     ],
     credentials: true,
