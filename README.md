@@ -129,3 +129,4 @@ cd client && npm run build
 4. Set all env vars in Railway dashboard
 5. Run schema: railway run psql $DATABASE_URL < db/schema.sql
 ```
+# Portfolio
